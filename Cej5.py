@@ -5,13 +5,13 @@ if num1 > num2 and num1 > num3:
     print(num1, "es el número mayor ")
 elif num2 > num1 and num2 > num3:
     print(num2, "es el número mayor ")
-else:
+elif num3 > num1 and num3 > num2:
     print(num3, "es el número mayor ")
 if num1 < num2 and num1 < num3:
     print(num1, "es el número menor")
 elif num2 < num1 and num2 < num3:
     print(num2, "es el número menor")
-else:
+elif num3 < num1 and num3 < num2:
     print(num3, "es el número menor")
 if num1 == num2:
     print(num1, "y", num2, "son iguales")
